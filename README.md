@@ -1,6 +1,6 @@
 # Axis MCP
 
-[![axis mcp](https://img.shields.io/badge/axis_mcp-12_tools_%C2%B7_live-c8f135?labelColor=1a1a18)](https://zambo.dev/mcp)
+[![axis mcp](https://zambo.dev/api/axis-mcp/badge.svg)](https://zambo.dev/mcp)
 [![Smithery](https://img.shields.io/badge/smithery-listed-c8f135?labelColor=1a1a18)](https://smithery.ai/server/axis-mcp)
 [![Audit](https://img.shields.io/badge/system_audit-live-c8f135?labelColor=1a1a18)](https://zambo.dev/audit)
 
