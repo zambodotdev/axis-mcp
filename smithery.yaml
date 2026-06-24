@@ -3,5 +3,24 @@ startCommand:
   url: https://zambo.dev/api/axis-mcp
 
 name: Axis MCP
-description: 12 tools bridging Zambo.dev strategy + x711.io execution + Entangler.tech coordination. Multi-agent workflow orchestration, x402 agent payments, drift monitoring. Zero auth. Install Zambo MCP first.
+description: >
+  12 tools bridging three AI networks into one cohesive agent system: Zambo.dev (brain/strategy),
+  x711.io (execution/compute/x402 payments), and Entangler.tech (coordination/trustless messaging).
+  Tools: axis_spark_to_swarm (goal→workflow), axis_agent_wire (wire 2 agents), axis_tool_dispatch
+  (x711 dispatch), axis_swarm_pattern (multi-agent design), axis_drift_monitor (swarm alignment),
+  axis_memory_handoff (cross-layer context), axis_chain_proof (provenance hash), axis_agent_onboard
+  (brief new agents), axis_pay_agent (x402 micropayment agent-to-agent), axis_reputation_check
+  (swarm trust), axis_outcome_submit (close the loop), axis_cross_search (search all 3 networks).
+  Zero auth. Install Zambo MCP first. Free tier: 3 calls/day. Zambo Pass unlocks unlimited.
+
 homepage: https://zambo.dev/mcp
+contact: brennanzambo@zambo.dev
+license: Commercial
+tags:
+  - ai
+  - multi-agent
+  - agent-coordination
+  - x402
+  - micropayments
+  - workflow
+  - orchestration
