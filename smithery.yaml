@@ -1,0 +1,7 @@
+startCommand:
+  type: http
+  url: https://zambo.dev/api/axis-mcp
+
+name: Axis MCP
+description: 12 tools bridging Zambo.dev strategy + x711.io execution + Entangler.tech coordination. Multi-agent workflow orchestration, x402 agent payments, drift monitoring. Zero auth. Install Zambo MCP first.
+homepage: https://zambo.dev/mcp
