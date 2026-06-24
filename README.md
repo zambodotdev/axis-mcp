@@ -1,55 +1,74 @@
 # Axis MCP
 
-**12 tools bridging Zambo.dev (strategy) + x711.io (execution) + Entangler.tech (coordination)** — the trifecta for multi-agent AI workflows.
+[![axis mcp](https://img.shields.io/badge/axis_mcp-12_tools_%C2%B7_live-c8f135?labelColor=1a1a18)](https://zambo.dev/mcp)
+[![Smithery](https://img.shields.io/badge/smithery-listed-c8f135?labelColor=1a1a18)](https://smithery.ai/server/axis-mcp)
+[![Audit](https://img.shields.io/badge/system_audit-live-c8f135?labelColor=1a1a18)](https://zambo.dev/audit)
 
-**Zero auth. Zero signup.** Install Zambo MCP first, then add Axis.
+**12 tools bridging three AI networks into one cohesive agent system.**
 
-## Quick Start
+- **Zambo.dev** — brain / strategy / product intelligence
+- **x711.io** — execution / compute / x402 micropayments
+- **Entangler.tech** — coordination / trustless agent messaging
 
-Add both MCPs for all 40 tools:
+**Zero auth. Zero signup.** Install alongside Zambo MCP for 41 total tools across 2 MCPs.
+
+## Quick Install
 
 ```json
 {
   "mcpServers": {
-    "zambo": {"url": "https://zambo.dev/api/mcp"},
-    "axis": {"url": "https://zambo.dev/api/axis-mcp"}
+    "zambo": { "url": "https://zambo.dev/api/mcp" },
+    "axis":  { "url": "https://zambo.dev/api/axis-mcp" }
   }
 }
 ```
 
----
+Install both together — Axis tools reference Zambo tools and they're designed to be used in tandem.
 
-## All 12 Axis Tools
+## All 12 Tools
 
-| Tool | Description |
+| Tool | What it does |
 |------|-------------|
-| `axis_spark_to_swarm` | Convert any goal into a full executable multi-agent workflow plan |
-| `axis_agent_wire` | Wire AI agents together for trustless coordination via Entangler |
-| `axis_tool_dispatch` | Dispatch any x711.io tool through the Axis layer |
-| `axis_swarm_pattern` | Generate custom multi-agent workflow patterns |
-| `axis_drift_monitor` | Monitor agent swarms for drift vs original Zambo Spark |
-| `axis_memory_handoff` | Pass context/memory between Zambo, x711, and Entangler layers |
-| `axis_chain_proof` | Cryptographic proof chain spanning all three Axis layers |
-| `axis_agent_onboard` | Brief any new AI agent on the complete Zambo + x711 + Entangler stack |
-| `axis_pay_agent` | x402 micropayment from one AI agent to another via x711.io |
-| `axis_reputation_check` | Check reputation of any agent swarm using proven outcomes |
-| `axis_outcome_submit` | Submit cross-layer workflow outcomes back into Zambo ledger |
-| `axis_cross_search` | Search capabilities across all three Axis networks simultaneously |
+| `axis_spark_to_swarm` | Convert a Zambo Spark goal into a full executable multi-agent workflow |
+| `axis_agent_wire` | Wire two agents together across Zambo/x711/Entangler |
+| `axis_tool_dispatch` | Dispatch any x711 tool through Axis with Zambo verification |
+| `axis_swarm_pattern` | Design a multi-agent swarm pattern for complex goals |
+| `axis_drift_monitor` | Monitor swarm drift vs original Zambo Spark strategy |
+| `axis_memory_handoff` | Pass memory/context between Zambo, x711, and Entangler layers |
+| `axis_chain_proof` | Generate a cryptographic proof chain for agent action provenance |
+| `axis_agent_onboard` | Brief a new agent on its role in the Axis trifecta |
+| `axis_pay_agent` | Execute x402 micropayment agent-to-agent (USDC on Base) |
+| `axis_reputation_check` | Check trust score of any agent in the Axis swarm |
+| `axis_outcome_submit` | Submit an outcome to close the loop on a Spark + update swarm memory |
+| `axis_cross_search` | Search for tools, agents, or capabilities across all three networks |
 
----
+## Rate Limits
 
-## The Trifecta
+- **Free tier**: 3 calls/day per tool
+- **Zambo Pass** ($49/mo): Unlimited on all 41 tools — covers both Zambo MCP + Axis MCP
 
-- **Zambo MCP** (brain/strategy) — 29 tools: https://zambo.dev/api/mcp
-- **Axis MCP** (coordination) — 12 tools: https://zambo.dev/api/axis-mcp
-- **x711.io** (execution) — live web, crypto, x402 payments
+## Trifecta Architecture
 
----
+```
+          ZAMBO.DEV (brain)
+         /       |       \
+    strategy   audit   intel
+         \       |       /
+          AXIS MCP (bridge)
+         /               \
+   x711.io            Entangler.tech
+ (execution)         (coordination)
+```
+
+## System Audit
+
+Live endpoint status, latency metrics, and full tool verification: **[zambo.dev/audit](https://zambo.dev/audit)**
 
 ## Links
 
-- **Homepage:** https://zambo.dev/mcp
-- **Axis Endpoint:** https://zambo.dev/api/axis-mcp
-- **Zambo MCP:** https://github.com/zambodotdev/zambo-mcp
-- **Contact:** brennanzambo@zambo.dev
-- **X:** https://x.com/zambodotdev
+- Homepage: [zambo.dev](https://zambo.dev)
+- Zambo MCP (29 tools): [github.com/zambodotdev/zambo-mcp](https://github.com/zambodotdev/zambo-mcp)
+- MCP directory: [zambo.dev/mcp](https://zambo.dev/mcp)
+- Smithery: [smithery.ai/server/axis-mcp](https://smithery.ai/server/axis-mcp)
+- Pass ($49/mo): [zambo.dev/#zambo-pass](https://zambo.dev/#zambo-pass)
+- Support: [brennanzambo@zambo.dev](mailto:brennanzambo@zambo.dev)
